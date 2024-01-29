@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-brand{
+  font-size: 2rem;
+  color: red;
+  font-family: 'Dancing Script', cursive;
+
+}
+.nav-link{
+  color: rgb(10,10,94);
+}
+.nav-link:hover{
+  color: rgb(212, 106, 106);
+  transition: 0.3s;
+}
+.nav-item{
+color: white;
+font-weight: 500;
+padding-left: 35px;
+}
+/*                       main section               */
+
+.main{
+  background:  linear-gradient(rgba(55, 49, 49, 0.75),rgba(14, 11, 11, 0.75)), url(images/download.jpg)no-repeat;
+  background-size: cover;
+  min-height: 95vh;
+  width: 100%;
+}
+/*
+section{
+  padding-top: 12px;
+  padding-bottom: 120px;
+}*/
+.main h3{
+  font-size: 5rem;
+  font-weight: 700;
+  color: hsl(0, 1%, 83%);
+}
+.red{
+  color: rgb(138, 32, 32);
+  font-size: 2rem;
+}
+/*          product        */
+.ceta h1{
+  font-size: 3.5rem;
+  color: rgb(7,7,7);
+}
+.ceta .card:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn3{
+  height: 70px;
+  width: 70%;
+  font-size: 30px;
+  border: 1px solid rgb(212, 40, 40);
+  background: #fff;
+  border-radius: 5px;
+  color: rgb(204, 126, 126);
+  transition: all 0.4s;
+}
+.btn3:hover{
+  background: rgb(255, 0, 0) ;
+  color: #fff;
+  border: none;
+  outline: none;
+  transition: all 0.4s;
+}
+
+/*                            pricing section                   */
+
+.pricing i{
+  font-size: 20px;
+  color: var(--primary);
+}
+.pricing ul li{
+  margin-top: 8px;
+}
+.ceta1{
+  background: linear-gradient(rgba(123, 130, 185, 0.75),rgba(116, 123, 132, 0.75));
+}
+/*                       offer section                */
+
+.offer h1{
+  font-size: 3.8rem;
+}
+
+/*                  contact section      
+
+form input.form-control{
+  height: 56px;
+}
+form .form-control{
+  border: transparent;
+  border-radius: 0;
+  background-color: #ece9e9;
+}*/
+
+
+
+/*                     footer section      */
+.footer{
+  background: #121626;
+  color: #fff;
+}
+.footer p{
+  margin: 0;
+  color: #69696b;
+}
+.link{
+  color: #6b6b72;
+  transition: all 0.4s;
+}
+.link:hover{
+  color: rgb(172, 61, 61);
+  padding-left: 10px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.footer input{
+  height: 45px;
+  width: 70%;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.footer button{
+  height: 45px;
+  width: 20%;
+  border: none;
+  outline: none;
+  margin-left: -12px;
+  border-top: 1px solid rgb(240, 54, 54);
+  background: rgb(225, 56, 56);
+  color: white;
+  margin-top: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
